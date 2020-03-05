@@ -1,21 +1,32 @@
 /* Header */
-.header a, a:hover {
+.header a,
+a:hover {
   color: #ee4b4b;
   text-decoration: none;
 }
 
 .header h1 {
   letter-spacing: 10px;
-  font-size: 300%;
+  font-size: 400%;
 }
 
-.header p { 
+.header p {
   color: white !important;
   font-size: 90%;
   letter-spacing: 3px;
 }
 
-.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+.nav>li>a:focus {
+  background-color: unset;
+}
+
+.nav>li>a:hover {
+  background-color: rgba(51, 121, 122, 0.452);
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
   background-color: #33797A;
 }
 
@@ -23,13 +34,76 @@
   color: white;
 }
 
-.nav-pills>li>a:hover {
-  background-color: #33797A;
-}
-
 .navbar.navbar-inverse {
   border-radius: 0;
   padding: 1%;
+}
+
+/* Main */
+.col-lg-9 h2 {
+  color: #3b5759;
+}
+
+.film-block {
+  text-align: center;
+}
+
+.film-block img {
+  margin-bottom: 5%;
+  border-radius: 5px;
+  border: solid 3px #dad7d5;
+  width: 100%;
+  box-shadow: 0 0 5px 1px rgb(160, 160, 160);
+}
+
+.film-label {
+  padding: 2%;
+  margin-bottom: 4%;
+}
+
+.margin-8 {
+  margin-bottom: 8%;
+}
+
+h3:hover {
+  color: #275d8d;
+}
+
+.panel {
+  border: none;
+}
+
+.sidebar-header {
+  font-size: 120%;
+  letter-spacing: 2px;
+}
+
+.panel-info>.panel-heading {
+  background-color: #fd5d5d;
+  color: white;
+  border-color: transparent;
+}
+
+.panel-body {
+  background-color: #f9f9f9;
+}
+
+.form-control {
+  font-size: 14px;
+  border-radius: 0%;
+}
+
+.panel-body form button.pull-right {
+  background-color: #fd5d5d;
+  color: white !important;
+}
+
+.panel-body form button.pull-right:hover {
+  background-color: #d14d4d;
+}
+
+.panel-body form button.pull-right:active {
+  background-color: #b94444;
 }
 
 /* Footer */
@@ -42,7 +116,8 @@
   min-height: 100%;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -72,10 +147,11 @@ footer a:hover {
     letter-spacing: 5px;
     font-size: 280%;
   }
-  
-  .header p{
+
+  .header p {
     font-size: 80%;
   }
+
   .header {
     text-align: center;
   }
