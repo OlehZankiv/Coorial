@@ -93,17 +93,48 @@ h3:hover {
   border-radius: 0%;
 }
 
-.panel-body form button.pull-right {
+form button.btn-enter {
   background-color: #fd5d5d;
   color: white !important;
+  width: 100%;
 }
 
-.panel-body form button.pull-right:hover {
+form button.btn-enter:hover {
   background-color: #d14d4d;
 }
 
-.panel-body form button.pull-right:active {
+form button.btn-enter:active {
   background-color: #b94444;
+}
+
+.badge {
+  background-color: black;
+}
+
+.margin-1 {
+  margin-bottom: 1%;
+}
+
+.info-block {
+  font-size: 120%;
+}
+
+.info-block span {
+  margin-right: 2%;
+}
+
+.info-block .badge {
+  font-size: 80%;
+}
+
+textarea.form-control {
+  height: 200px;
+  resize: none;
+}
+
+.info-contact {
+  font-size: 130%;
+  margin-bottom: 3%;
 }
 
 /* Footer */
