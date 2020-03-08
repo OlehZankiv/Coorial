@@ -93,18 +93,22 @@ h3:hover {
   border-radius: 0%;
 }
 
-form button.btn-enter {
+.btn-enter {
   background-color: #fd5d5d;
   color: white !important;
   width: 100%;
 }
 
-form button.btn-enter:hover {
+.btn-enter:hover {
   background-color: #d14d4d;
 }
 
-form button.btn-enter:active {
+.btn-enter:active {
   background-color: #b94444;
+}
+
+a.btn-enter {
+  width: unset;
 }
 
 .badge {
@@ -135,6 +139,10 @@ textarea.form-control {
 .info-contact {
   font-size: 130%;
   margin-bottom: 3%;
+}
+
+.table tbody tr td.vertical-align {
+  vertical-align: middle;
 }
 
 /* Footer */
@@ -172,6 +180,10 @@ footer a:hover {
   .nav-pills>li {
     text-align: center;
     float: none;
+  }
+
+  .row .well img.img-thumbnail {
+    width: 100%;
   }
 
   .header h1 {
